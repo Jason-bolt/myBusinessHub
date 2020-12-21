@@ -1,0 +1,37 @@
+INDUSTRIES
+
+all industries
+advertising, media and communication
+agriculture, fishing and forestry
+automotive and aviation
+banking, finance and insurance
+construction
+education
+energy and utilities
+entertainment, events and sport
+government
+healthcare
+hospitality and hotel
+it and telecoms
+law and compliance
+manufacturing and warehousing
+mining, energy and metals
+ngo, npo and charity
+real estate
+recruitment
+retail, fashion and fmcg(fast moving consumer goods)
+shipoping and logistics
+tourism and travel
+
+
+FOR CAMPUS
+
+all industries
+food service
+advertisement, media and communication
+entertainment, events and sports
+healthcare
+hospitality, hostel and hotel
+it and telecoms
+retail, fashion and fmcg
+education

@@ -1,0 +1,48 @@
+INDUSTRIES
+
+all industries
+advertising, media and communication
+agriculture, fishing and forestry
+automotive and aviation
+banking, finance and insurance
+construction
+education
+energy and utilities
+entertainment, events and sport
+government
+healthcare
+hospitality and hotel
+it and telecoms
+law and compliance
+manufacturing and warehousing
+mining, energy and metals
+ngo, npo and charity
+real estate
+recruitment
+retail, fashion and fmcg(fast moving consumer goods)
+shipoping and logistics
+tourism and travel
+
+
+FOR CAMPUS
+
+all industries = 0
+food service = 1
+advertisement, media and communication = 2
+entertainment, events and sports = 3
+healthcare = 4
+hospitality, hostel and hotel = 5
+it and telecoms = 6
+retail, fashion and fmcg = 7
+education = 8
+Writing and translation = 9
+
+LOCATION
+
+old site = 1
+apewusika = 2
+amamoma = 3
+ayensu = 4
+new site = 5
+kwapro = 6
+around src = 7
