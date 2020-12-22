@@ -176,7 +176,7 @@
   </nav>
 
   <section class="container pt-2">
-    <form class="form-inline justify-content-center">
+    <form class="form-inline justify-content-center" method="GET" action="search_results.php" onsubmit="return validate_search()">
       <div class="mr-5" style="padding-right: 30%;">
         <i class="fa fa-phone"> +233209544918</i>
         &emsp;
@@ -185,8 +185,20 @@
       <div class="form-group mx-sm-3 mt-2">
         <input type="text" class="form-control" id="search_query" name="search_query" placeholder="Search business">
       </div>
-      <button type="submit" class="btn mt-2" style="background-color: rgb(75,0,130); color: #fff;">Search</button>
+      <button type="submit" name="search_submit" class="btn mt-2" style="background-color: rgb(75,0,130); color: #fff;">Search</button>
     </form>
   </section>
 
 <hr class="mb-0" />
+
+<script type="text/javascript">
+  function validate_search(){
+    var search_query = getElementById('search_query').value;
+
+    if (search_query.trim() == '') {
+      return false;
+    }
+
+    return true;
+  }
+</script>

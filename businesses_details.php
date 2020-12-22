@@ -21,6 +21,7 @@
 
   $business = get_business_by_id($business_id);
   $owner = get_owner_by_id($owner_id);
+  $skills = get_skills_by_id($owner_id);
 
   if (!$owner || !$business) {
     redirect_to('businesses.php');
@@ -132,11 +133,24 @@
         <h4><u>Owner details</u></h4>
 
         <!-- Owner Image -->
-        <div class="container my-4">
+        <div class="container mt-4">
           <img src="img/<?php echo $owner['owner_image_location']; ?>" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
           <h5 class="mt-2"><?php echo $owner_name; ?></h5>
         </div>
 
+        <!-- Display skills -->
+        <div class="container my-4">
+          <h6><u>Skills</u></h6>
+          <?php
+            if (mysqli_num_rows($skills) != 0) {
+              while ($skill = mysqli_fetch_assoc($skills)) {
+          ?>
+            <p class="my-0 py-0"><?php echo $skill['skill']; ?></p>
+          <?php
+              }
+            }
+          ?>
+        </div>
 
         <!-- Social Media Handles -->
         <?php

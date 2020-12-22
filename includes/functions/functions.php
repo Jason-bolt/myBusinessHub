@@ -83,6 +83,17 @@ function get_owner_by_id($owner_id){
 	}
 }
 
+function get_skills_by_id($owner_id){
+	global $connection;
+	// Performing query for owner skills
+	$query = "SELECT * FROM skills";
+	$query .= " WHERE owner_id = {$owner_id}";
+	$skills = mysqli_query($connection, $query);
+	// Testing if there was a query error
+	query_check($skills);
+	return $skills;
+}
+
 function get_business_by_business_name($business_name){
 	global $connection;
 	// peforming query for specific business
@@ -160,6 +171,17 @@ function get_business_by_name($name){
 	}else{
 		return null;
 	}
+}
+
+function get_all_businesses_by_keyword($keywords){
+	global $connection;
+	// Performing query to get searched businesses
+	$safe_keywords = mysql_prep($keywords);
+	$query = "SELECT * FROM businesses WHERE business_name LIKE '%" . $safe_keywords . "%'";
+	$businesses = mysqli_query($connection, $query);
+	// Testing if there was a query error
+	query_check($businesses);
+	return $businesses;
 }
 
 function get_owner_skills($owner_id){

@@ -44,7 +44,7 @@
 
             <div class="form-group">
               <label>Business name *</label>
-              <input type="text" name="business_name" id="business_name" class="form-control" required>
+              <input type="text" maxlength="50" name="business_name" id="business_name" class="form-control" required>
             </div>
 
             <div class="form-group">
