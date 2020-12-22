@@ -1,0 +1,3 @@
+ErrorDocument 404 /myBusinessHub/404page.php
+
+IndexIgnore *

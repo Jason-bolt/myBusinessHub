@@ -4,7 +4,7 @@
   include('includes/db/db.php');
   include('includes/functions/functions.php');
 
-  $page = 'contact';
+  $page = 'about';
   // Determining the header based on login status
   if (owner_logged_in()) {
     include('includes/layouts/business_header.php');

@@ -18,14 +18,34 @@
           <li>
             <a href="#!" style="color: #A17DF0;">Site Policy</a>
           </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Menu</h5>
+
+        <ul class="list-unstyled">
           <li>
-            <a href="#!">Very long link 2</a>
+            <a href="index.php" style="color: #A17DF0;">Home</a>
           </li>
           <li>
-            <a href="#!">Very long link 3</a>
+            <a href="about.php" style="color: #A17DF0;">About</a>
           </li>
           <li>
-            <a href="#!">Very long link 4</a>
+            <a href="businesses.php" style="color: #A17DF0;">Businesses</a>
+          </li>
+          <li>
+            <a href="faq.php" style="color: #A17DF0;">FAQs</a>
+          </li>
+          <li>
+            <a href="contact.php" style="color: #A17DF0;">Contact</a>
           </li>
         </ul>
 
@@ -38,72 +58,14 @@
       <div class="col-md-3 mx-auto">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Info</h5>
 
         <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
+          <li style="color: #A17DF0;">
+            <i class="fa fa-envelope"></i> info@mybusinesshub.com
           </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+          <li style="color: #A17DF0;">
+            <i class="fa fa-phone"></i> 0209544918
           </li>
         </ul>
 

@@ -20,22 +20,19 @@
 
     <div class="row">
 
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
+      <div class="container">
+        <h1 class="my-4">FAQ</h1>
 
-        <h1 class="my-4">FAQs</h1>
+        <div class="container mb-5">
+          
+          <h4>How do I add my business?</h4>
+          <p>
+            Click on the Register button, fill the form and add your business. 
+          </p>
 
-        <h4>How do I add my business?</h4>
-        <p>
-          Click on the Register button, fill the form and add your business. 
-        </p>
-
-        <hr />
+        </div>
 
       </div>
-
-      <!-- Sidebar Widgets Column -->
-      <?php include('includes/layouts/side_bar.php'); ?>
 
     </div>
     <!-- /.row -->

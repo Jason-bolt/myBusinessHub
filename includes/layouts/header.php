@@ -180,7 +180,7 @@
       <div class="mr-5" style="padding-right: 30%;">
         <i class="fa fa-phone"> +233209544918</i>
         &emsp;
-        <i class="fa fa-envelope"> appiatujason@gmail.com</i>
+        <i class="fa fa-envelope"> info@mybusinesshub.com</i>
       </div>
       <div class="form-group mx-sm-3 mt-2">
         <input type="text" class="form-control" id="search_query" name="search_query" placeholder="Search business">
