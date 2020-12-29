@@ -16,7 +16,7 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!" style="color: #A17DF0;">Site Policy</a>
+            <a href="#!" style="color: #A17DF0;">Terms and Conditions</a>
           </li>
         </ul>
 

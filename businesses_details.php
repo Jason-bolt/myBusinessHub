@@ -22,6 +22,7 @@
   $business = get_business_by_id($business_id);
   $owner = get_owner_by_id($owner_id);
   $skills = get_skills_by_id($owner_id);
+  $owner_businesses = get_owner_other_businesses($owner_id, $business_id);
 
   if (!$owner || !$business) {
     redirect_to('businesses.php');
@@ -208,7 +209,39 @@
 
       <hr />
 
-      <a href="businesses.php" class="btn" style="border-color: rgb(75,0,130); color: rgb(75,0,130);"><i class="fa fa-arrow-left"></i> Back to businesses</a>
+      <!-- Related Jobs -->
+      <h3 class="my-4">Other Jobs By Owner</h3>
+      <div class="row">
+        <div class="row text-center container-fluid">
+
+          <?php
+            while ($owner_business = mysqli_fetch_assoc($owner_businesses)) {
+          ?>
+            <div class="col-lg-6 col-md-6 mb-2">
+              <div class="card h-100">
+                <div style="height: 220px; background-image: url('img/<?php echo($owner_business['business_image_location']); ?>'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                  <!-- <img class="card-img-top" src="img/sized1.png" alt=""> -->
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title"><?php echo($owner_business['business_name']); ?></h4>
+                  <p class="card-text">
+                    <?php echo($owner_business['business_brief']); ?>
+                  </p>
+                </div>
+                <div class="card-footer" style="background-color: rgb(75,0,130);">
+                  <a href="businesses_details.php?business_id=<?php echo($owner_business['business_id']); ?>&owner_id=<?php echo($owner_business['owner_id']); ?>" style="color: #FFF;">Read More &rarr;</a>
+                </div>
+              </div>
+            </div>
+          <?php
+            }
+          ?>
+
+        </div>
+      </div>
+      <!-- ./Related Jobs -->
+
+      <a href="businesses.php" class="btn mt-5" style="border-color: rgb(75,0,130); color: rgb(75,0,130);"><i class="fa fa-arrow-left"></i> Back to businesses</a>
 
       </div>
 

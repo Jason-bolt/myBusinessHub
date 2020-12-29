@@ -30,9 +30,71 @@
       <!-- <div class="col-md-8"> -->
 
         <h1 class="my-4">Welcome to MyBusinessHub</h1>
-        <p>
-          MyBusinessHub is an online business hub that allows individuals with businesses or skills of any kind to reach the large audience of possible customers on the internet. Using myBusinessHub website, exposes you to all businesses and entrepreneurs within the specified location.
+        <p class="text-center">
+          MyBusinessHub is an online business hub that allows individuals with businesses or skills of any kind to reach the large audience of possible customers on the internet. Using myBusinessHub website, exposes you to all businesses and entrepreneurs within the specified location allowing you to turn your skills into profit.
         </p>    
+
+        <hr />
+
+        <!-- Industries -->
+        <h3 class="mb-5 text-center">Industries</h3>
+        <div class="row text-center container-fluid">
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php?business_industry=1">
+                <img src="img/food.png" class="" width="100">
+                <br />
+                Food service
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php?business_industry=4">
+                <img src="img/healthcare.png" class="" width="100">
+                <br />
+                Healthcare
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php?business_industry=2">
+                <img src="img/media.png" class="" width="100">
+                <br />
+                Media
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php?business_industry=9">
+                <img src="img/writing.png" class="" width="100">
+                <br />
+                Writing
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php?business_industry=6">
+                <img src="img/coding.png" class="" width="100">
+                <br />
+                Coding
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mb-3">
+              <a href="businesses.php">
+                <img src="img/more.png" class="" width="100">
+                <br />
+                More...
+              </a>
+            </div>
+
+        </div>
+        <!-- ./Industries -->
+
+        <br />
+
+        <!-- View all business -->
+        <a href="businesses.php" class="btn mt-3" style="border-color: rgb(75,0,130); color: rgb(75,0,130);">Browse through available businesses <i class="fa fa-arrow-right"></i></a>
 
         <hr class="my-5" />
 
@@ -64,12 +126,6 @@
           ?>
 
         </div>
-
-        <br />
-
-        <a href="businesses.php" class="btn mt-5" style="border-color: rgb(75,0,130); color: rgb(75,0,130);">Browse through available businesses <i class="fa fa-arrow-right"></i></a>
-
-        <hr class="my-5" />
 
       </div>
       <!-- /.row -->

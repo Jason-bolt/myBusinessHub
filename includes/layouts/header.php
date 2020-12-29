@@ -175,7 +175,28 @@
     </div>
   </nav>
 
-  <section class="container pt-2">
+  <section class="container">
+    <div class="row container mt-3">
+      
+      <div class="mr-5 col mt-2">
+        <i class="fa fa-phone" style="color: rgb(75,0,130);"> +233209544918</i>
+        &emsp;
+        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> info@mybusinesshub.com</i>
+      </div>
+
+      <div class="col px-0">
+        <form class="form-inline justify-content-center" method="GET" action="search_results.php" onsubmit="return validate_search()">
+          <div class="form-group mx-sm-3 my-0">
+            <input type="text" class="form-control" id="search_query" name="search_query" placeholder="Search business">
+          </div>
+          <button type="submit" name="search_submit" class="btn" style="background-color: rgb(75,0,130); color: #fff;">Search</button>
+        </form>
+      </div>
+    
+    </div>
+  </section>
+
+ <!--  <section class="container pt-2">
     <form class="form-inline justify-content-center" method="GET" action="search_results.php" onsubmit="return validate_search()">
       <div class="mr-5" style="padding-right: 30%;">
         <i class="fa fa-phone"> +233209544918</i>
@@ -187,7 +208,7 @@
       </div>
       <button type="submit" name="search_submit" class="btn mt-2" style="background-color: rgb(75,0,130); color: #fff;">Search</button>
     </form>
-  </section>
+  </section> -->
 
 <hr class="mb-0" />
 

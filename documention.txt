@@ -1,4 +1,4 @@
-INDUSTRIES
+	INDUSTRIES
 
 all industries
 advertising, media and communication
@@ -22,6 +22,9 @@ recruitment
 retail, fashion and fmcg(fast moving consumer goods)
 shipoping and logistics
 tourism and travel
+Social media
+Erands
+floral and deco
 
 
 FOR CAMPUS

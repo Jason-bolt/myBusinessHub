@@ -123,6 +123,20 @@ function get_owner_businesses($owner_id){
 	return $businesses;
 }
 
+// Get specific owner's businesses (others)
+function get_owner_other_businesses($owner_id, $business_id){
+	global $connection;
+
+	$query = "SELECT * FROM businesses";
+	$query .= " WHERE owner_id = {$owner_id} AND business_id != {$business_id}";
+	$businesses = mysqli_query($connection,  $query);
+	// Testing if there was a query error
+	query_check($businesses);
+	return $businesses;
+}
+
+// SELECT * FROM `businesses` WHERE owner_id = 1 AND business_id != 22
+
 function get_business_by_id($id){
 	global $connection;
 	// peforming query for specific business

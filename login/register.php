@@ -118,6 +118,8 @@
                             </div>
                         </div>
 
+                        <small style="color: green;">By clicking "Submit" yoy are agreeing to the <a href="#">Terms and Conditions</a> of muBusinessHub.com</small>
+                        
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit" name="submit_registration">Submit</button>
                         </div>

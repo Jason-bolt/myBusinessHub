@@ -34,7 +34,7 @@
             </p>
 
             <p>
-              <strong><u>Disclaimer:</u></strong> MyBusinessHub is not an E-commerce platform and hence does not deal with or be responsible for any form of monetary transaction. We only make businesses available to the public, therefore individuals interested in any business on this platform are to contact said business' owner directly. 
+              <strong><u>Disclaimer:</u></strong> MyBusinessHub is not an E-commerce platform and hence does not deal with or be held responsible for any form of monetary transaction. We only make businesses available to the public, therefore individuals interested in any business on this platform are to contact said business' owner directly. 
             </p>
 
           </div>

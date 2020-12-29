@@ -35,7 +35,7 @@
           </select>
         </form>
 
-      <h1 class='my-4' id="industry"></h1>
+      <h2 class='my-4' id="industry"></h2>
 
       <div class='row container'>
         <div class='row text-center container-fluid' id="businesses">
@@ -72,7 +72,17 @@
   
   window.onload = function (){
 
-    var business_industry = '0';
+    <?php
+      if (!isset($_GET['business_industry']) || $_GET['business_industry'] == '') {
+    ?>
+      var business_industry = '0';
+    <?php
+      }else{
+    ?>
+      var business_industry = <?php echo $_GET['business_industry']; ?>;
+    <?php
+      }
+    ?>
 
     // create Ajax variable
     var xhr = new XMLHttpRequest();
@@ -110,7 +120,31 @@
 
           } // for(var i in businesses){
         } // }else{
-          document.getElementById('industry').innerHTML = "All Industries";
+
+          var industry = '';
+          if (business_industry == '0') {
+            industry = "All Industries";
+          }else if (business_industry == '1') {
+            industry = "Food Service";
+          }else if (business_industry == '2') {
+            industry = "Advertisement, Media and Communication";
+          }else if (business_industry == '3') {
+            industry = "Entertainment, Events and Sports";
+          }else if (business_industry == '4') {
+            industry = "Healthcare";
+          }else if (business_industry == '5') {
+            industry = "Hospitality, Hostel and Hotel";
+          }else if (business_industry == '6') {
+            industry = "IT and Telecoms";
+          }else if (business_industry == '7') {
+            industry = "Retail, Fashion and FMCG";
+          }else if (business_industry == '8') {
+            industry = "Education";
+          }else if (business_industry == '9') {
+            industry = "Writing and Translation";
+          }
+
+          document.getElementById('industry').innerHTML = industry;
           document.getElementById('businesses').innerHTML = business_list;
       } // if (this.status == 200) {
     } // xhr.onload = function(){
