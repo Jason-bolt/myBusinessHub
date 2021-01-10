@@ -29,9 +29,9 @@
       <!-- Blog Entries Column -->
       <!-- <div class="col-md-8"> -->
 
-        <h1 class="my-4">Welcome to MyBusinessHub</h1>
+        <h1 class="my-4">Welcome to GoSH</h1>
         <p class="text-center">
-          MyBusinessHub is an online business hub that allows individuals with businesses or skills of any kind to reach the large audience of possible customers on the internet. Using myBusinessHub website, exposes you to all businesses and entrepreneurs within the specified location allowing you to turn your skills into profit.
+          GoSH stands for GotSkillsHub and is an online business/skills hub that allows individuals with businesses or skills of any kind to reach the large audience of possible customers on the internet. Using GoSH, exposes you to a vast number of businesses and entrepreneurs on the platform.
         </p>    
 
         <hr />
@@ -42,7 +42,7 @@
 
             <div class="col-lg-2 col-md-2 mb-3">
               <a href="businesses.php?business_industry=1">
-                <img src="img/food.png" class="" width="100">
+                <img src="img/icons/food.png" class="" width="100">
                 <br />
                 Food service
               </a>
@@ -50,7 +50,7 @@
 
             <div class="col-lg-2 col-md-2 mb-3">
               <a href="businesses.php?business_industry=4">
-                <img src="img/healthcare.png" class="" width="100">
+                <img src="img/icons/healthcare.png" class="" width="100">
                 <br />
                 Healthcare
               </a>
@@ -58,7 +58,7 @@
 
             <div class="col-lg-2 col-md-2 mb-3">
               <a href="businesses.php?business_industry=2">
-                <img src="img/media.png" class="" width="100">
+                <img src="img/icons/media.png" class="" width="100">
                 <br />
                 Media
               </a>
@@ -66,7 +66,7 @@
 
             <div class="col-lg-2 col-md-2 mb-3">
               <a href="businesses.php?business_industry=9">
-                <img src="img/writing.png" class="" width="100">
+                <img src="img/icons/writing.png" class="" width="100">
                 <br />
                 Writing
               </a>
@@ -74,15 +74,15 @@
 
             <div class="col-lg-2 col-md-2 mb-3">
               <a href="businesses.php?business_industry=6">
-                <img src="img/coding.png" class="" width="100">
+                <img src="img/icons/coding.png" class="" width="100">
                 <br />
                 Coding
               </a>
             </div>
 
-            <div class="col-lg-2 col-md-2 mb-3">
+            <div class="col-iclg-2 col-md-2 mb-3">
               <a href="businesses.php">
-                <img src="img/more.png" class="" width="100">
+                <img src="img/icons/more.png" class="" width="100">
                 <br />
                 More...
               </a>

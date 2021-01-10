@@ -144,7 +144,8 @@
 
         <div class="form-group">
           <label>Location</label>
-          <select name="business_location" id="business_location" class="form-control">
+          <input type="text" name="business_location" id="business_location" class="form-control" value="<?php echo $business['business_location']; ?>">
+          <!-- <select name="business_location" id="business_location" class="form-control">
             <?php
               if ($business['business_location'] == '1') {
             ?>
@@ -218,7 +219,7 @@
             <?php
               }
             ?>
-          </select>
+          </select> -->
         </div>
 
         <div class="form-group">

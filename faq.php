@@ -21,18 +21,18 @@
     <div class="row">
 
       <div class="container">
-        <h1 class="my-4">FAQ</h1>
+        <h1 class="my-4">FAQs</h1>
 
         <div class="container mb-5">
           
           <h5><strong>How do I add my business?</strong></h5>
           <p>
-            Click on the Register button and fill the form to become a member of myBusinessHub. Then in your profile page, click the "Create business" button and fill the business form then <i>voila</i>, your business is ready and pending approval before publishing. 
+            Click on the Register button and fill the form to become a member of GotSkillsHub. Then in your profile page, click the "Create business" button and fill the business form then <i>voila</i>, your business is ready and pending approval before publishing. 
           </p>
 
           <h5><strong>My business got denied, what do I do?</strong></h5>
           <p>
-            As part of our <a href="#">Terms and Conditions</a>, myBusinessHub has the right to withold any business from being published due to many factors. This can easily be fixed by changing inappropriate or copyrighted content on your business. Please refer to the <a href="#">Terms and Conditions</a> for more reasons why your business was denied.
+            As part of our <a href="about.php">Terms & Conditions</a>, GotSkillsHub has the right to withold any business from being published due to many factors. This can easily be fixed by changing inappropriate or copyrighted content on your business. Please refer to the <a href="about.php">Terms & Conditions</a> for more reasons why your business was denied.
           </p>
 
           <h5><strong>How do I view businesses offered by a particular owner?</strong></h5>
@@ -42,7 +42,7 @@
 
           <h5><strong>Can payment be made through the site?</strong></h5>
           <p>
-            Not at the moment. According to our current <a href="#">Terms and Conditions</a>, we do not take in any form of payment. Hence payments for services rendered must be done directly between the provider and recipient.
+            Not at the moment. According to our current <a href="about.php">Terms & Conditions</a>, we do not take in any form of payment. Hence payments for services rendered must be done directly between the provider and recipient.
           </p>
 
           <h5><strong>How do I report a foul play?</strong></h5>

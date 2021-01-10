@@ -8,8 +8,9 @@
   <meta name="description" content="Business Hub">
   <meta name="author" content="Jason Kwame Appiatu">
   <meta name="keywords" content="Business Hub">
+  <link rel="icon" type="image/png" href="img/brand/brand_logo1.png">
 
-  <title>MyBusinessHub</title>
+  <title>GoSH</title>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +31,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0f0030;">
     <div class="container">
-      <a class="navbar-brand" href="index.php">MyBusinessHub</a>
+      <a class="navbar-brand" href="index.php">
+        <img src="img/brand/brand_logo1.png" width="25" class="mb-1">
+        GotSkillsHub
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,9 +53,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="businesses.php">Businesses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="faq.php">FAQs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
@@ -77,9 +78,6 @@
               <a class="nav-link" href="businesses.php">Businesses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="faq.php">FAQs</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
@@ -103,9 +101,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="faq.php">FAQs</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
@@ -125,11 +120,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="businesses.php">Businesses</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="faq.php">FAQs
-                <span class="sr-only">(current)</span>
-              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
@@ -151,9 +141,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="businesses.php">Businesses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="faq.php">FAQs</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="contact.php">Contact
@@ -181,7 +168,7 @@
       <div class="mr-5 col mt-2">
         <i class="fa fa-phone" style="color: rgb(75,0,130);"> +233209544918</i>
         &emsp;
-        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> info@mybusinesshub.com</i>
+        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> info@gotskillshub.com</i>
       </div>
 
       <div class="col px-0">

@@ -76,7 +76,9 @@
 
             <div class="form-group">
               <label>Location *</label>
-              <select name="business_location" id="business_location" class="form-control" required>
+              <input type="text" name="business_location" id="business_location" class="form-control" placeholder="Business location" required>
+              <small style="color: #999;">e.g. Amamoma, Ghana; Cape coast, Ghana; Texas, USA; Lagos, Nigeria; etc (Try to be as specific as possible.)</small>
+              <!-- <select name="business_location" id="business_location" class="form-control" required>
                 <option value="1">Old site</option>
                 <option value="2">Apewusika</option>
                 <option value="3">Amamoma</option>
@@ -84,7 +86,7 @@
                 <option value="5">New site</option>
                 <option value="6">Kwapro</option>
                 <option value="7">Around SRC</option>
-              </select>
+              </select> -->
             </div>
 
             <div class="form-group">

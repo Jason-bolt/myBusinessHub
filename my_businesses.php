@@ -49,7 +49,7 @@
                 <p class="card-text"><?php echo $created_business['business_brief']; ?></p>
               </div>
               <div class="card-footer" style="background-color: rgb(75,0,130);">
-                <a href="business_profile.php?business_id=<?php echo($created_business['business_id']); ?>" style="color: #FFF;">View busness &rarr;</a>
+                <a href="business_profile.php?business_id=<?php echo($created_business['business_id']); ?>" style="color: #FFF;">View business &rarr;</a>
               </div>
             </div>
           </div>

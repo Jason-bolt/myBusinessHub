@@ -69,32 +69,32 @@
   }
 
 // LOCATION
-  switch ($location) {
-    case '1':
-      $business_location = 'old site';
-      break;
-    case '2':
-      $business_location = 'apewusika';
-      break;
-    case '3':
-      $business_location = 'amamoma';
-      break;
-    case '4':
-      $business_location = 'ayensu';
-      break;
-    case '5':
-      $business_location = 'new site';
-      break;
-    case '6':
-      $business_location = 'kwapro';
-      break;
-    case '7':
-      $business_location = 'around src';
-      break;
-    default:
-      $business_location = 'none';
-      break;
-  }
+  // switch ($location) {
+  //   case '1':
+  //     $business_location = 'old site';
+  //     break;
+  //   case '2':
+  //     $business_location = 'apewusika';
+  //     break;
+  //   case '3':
+  //     $business_location = 'amamoma';
+  //     break;
+  //   case '4':
+  //     $business_location = 'ayensu';
+  //     break;
+  //   case '5':
+  //     $business_location = 'new site';
+  //     break;
+  //   case '6':
+  //     $business_location = 'kwapro';
+  //     break;
+  //   case '7':
+  //     $business_location = 'around src';
+  //     break;
+  //   default:
+  //     $business_location = 'none';
+  //     break;
+  // }
 
 
 
@@ -126,7 +126,7 @@
         <div class="d-flex flex-row">
           <h4>Location:</h4>
           &nbsp;
-          <p class="pt-1"><?php echo ucfirst($business_location); ?></p>
+          <p class="pt-1"><?php echo ucfirst($business['business_location']); ?></p>
         </div>
 
         <hr />

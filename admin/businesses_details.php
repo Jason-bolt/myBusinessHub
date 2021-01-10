@@ -126,7 +126,7 @@
         <div class="d-flex flex-row">
           <h4>Location:</h4>
           &nbsp;
-          <p class="pt-1"><?php echo ucfirst($business_location); ?></p>
+          <p class="pt-1"><?php echo ucfirst($business['business_location']); ?></p>
         </div>
 
         <hr />

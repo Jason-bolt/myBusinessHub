@@ -16,7 +16,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!" style="color: #A17DF0;">Terms and Conditions</a>
+            <a href="about.php" style="color: #A17DF0;">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="faq.php" style="color: #A17DF0;">FAQs</a>
           </li>
         </ul>
 
@@ -42,9 +45,6 @@
             <a href="businesses.php" style="color: #A17DF0;">Businesses</a>
           </li>
           <li>
-            <a href="faq.php" style="color: #A17DF0;">FAQs</a>
-          </li>
-          <li>
             <a href="contact.php" style="color: #A17DF0;">Contact</a>
           </li>
         </ul>
@@ -62,7 +62,7 @@
 
         <ul class="list-unstyled">
           <li style="color: #A17DF0;">
-            <i class="fa fa-envelope"></i> info@mybusinesshub.com
+            <i class="fa fa-envelope"></i> info@gotskillshub.com
           </li>
           <li style="color: #A17DF0;">
             <i class="fa fa-phone"></i> 0209544918
@@ -79,7 +79,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright: mybusinesshub.com
+  <div class="footer-copyright text-center py-3">© 2021 Copyright: gotskillshub.com
     <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
   </div>
   <!-- Copyright -->
