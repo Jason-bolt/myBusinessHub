@@ -73,8 +73,16 @@
               </li>
             </ul>
 
+            <p style="color: rgb(75,0,130);">
+              <strong>
+                <i>
+                  gotSkillsHub is currently running a free service but charges will come in the near future. All registered members will be notified a month before execution.
+                </i>
+              </strong>
+            </p>
+
             <p>
-              muBusinessHub.com has the right to reject any business that does not conform to the stated terms above. All rejected businesses may be edited or updated in order to be published on review.
+              gotSkillsHub.com has the right to reject any business that does not conform to the stated terms above. All rejected businesses may be edited or updated in order to be published on review.
             </p>
 
             <h4><strong>PRIVACY POLICY</strong></h4>
