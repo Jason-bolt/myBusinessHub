@@ -20,7 +20,12 @@ $subject = "Website Contact Form:  $name";
 $body = "You have received a new message from your website contact form.\n\n"."Name: " . $name . "\n\n" . $message;
 $header = "From: ". $mailFrom; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 
-if(!mail($mailTo, $subject, $body, $header))
+if(!mail($mailTo, $subject, $body, $header)){
+	$_SESSION['message'] = "Message not sent!";
+ 	header("Location: ../../contact.php");
+}else{
 	$_SESSION['message'] = "Message sent successfully!";
- 	header("Location: ../../contact_us.php");
+ 	header("Location: ../../contact.php");
+}
+	
 ?>

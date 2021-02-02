@@ -201,9 +201,9 @@
   <section class="container pt-2">
     <form class="form-inline justify-content-center">
       <div class="mr-5" style="padding-right: 30%;">
-        <i class="fa fa-phone"> +233209544918</i>
+        <i class="fa fa-phone" style="color: rgb(75,0,130);"> +233209544918</i>
         &emsp;
-        <i class="fa fa-envelope"> appiatujason@gmail.com</i>
+        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> gotskillsh@gotskillshub.com</i>
       </div>
       <div class="form-group mx-sm-3 mt-2">
         <input type="text" class="form-control" id="search_query" name="search_query" placeholder="Search business">
