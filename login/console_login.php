@@ -13,7 +13,7 @@
     <meta name="keywords" content="Business Hub">
 
     <!-- Title -->
-    <title>MyBusinessHub - Login</title>
+    <title>GotSkillsHub - Login</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">

@@ -53,7 +53,7 @@
 
                     <div class="title">
                         <h2>
-                            MyBusinessHub
+                            GotSkillsHub
                             <small>Login Form</small>
                         </h2>
                         <p style="color: blue; font-size: 14px;">For businesses only</p>

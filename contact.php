@@ -27,7 +27,7 @@
             All fields are required
           </p>
           
-          <form method="POST" action="assets/mail/contact_us_process.php" onsubmit="return validate()">
+          <form method="POST" action="includes/mail/contact_us_process.php" onsubmit="return validate()">
               <label style="color: #555;">Name *</label>
             <div class="form-row">
           
@@ -78,6 +78,14 @@
 <?php include('includes/layouts/footer.php'); ?>
 
 <script type="text/javascript">
+
+<?php
+    if (isset($_SESSION['message'])) {
+  ?>
+    alert('<?php echo($_SESSION['message']); ?>');
+  <?php
+    }$_SESSION['message'] = null;
+  ?>
 
   function validate(){
     var firstName = document.getElementById("firstName").value;
