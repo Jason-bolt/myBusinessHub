@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">Forgot password</a>
+                        <!-- <a href="#">Forgot password</a> -->
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" name="submit_login" type="submit">Login</button>
                         </div>

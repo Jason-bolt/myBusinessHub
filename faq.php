@@ -32,7 +32,7 @@
 
           <h5><strong>My business got denied, what do I do?</strong></h5>
           <p>
-            As part of our <a href="about.php">Terms & Conditions</a>, GotSkillsHub has the right to withold any business from being published due to many factors. This can easily be fixed by changing inappropriate or copyrighted content on your business. Please refer to the <a href="about.php">Terms & Conditions</a> for more reasons why your business was denied.
+            As part of our <a href="about.php">Terms & Conditions</a>, GotSkillsHub has the right to withold any business from being published due to many factors. This can easily be fixed by changing inappropriate or copyrighted content on your business. If all details check out, your business should be online within 3 working days. Please refer to the <a href="about.php">Terms & Conditions</a> for more reasons why your business was denied.
           </p>
 
           <h5><strong>How do I view businesses offered by a particular owner?</strong></h5>
