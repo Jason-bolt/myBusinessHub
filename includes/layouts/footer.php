@@ -62,7 +62,7 @@
 
         <ul class="list-unstyled">
           <li style="color: #A17DF0;">
-            <i class="fa fa-envelope"></i> gotskillsh@gotskillshub.com
+            <i class="fa fa-envelope"></i> gotskillshubinfo@gmail.com
           </li>
           <li style="color: #A17DF0;">
             <i class="fa fa-phone"></i> 0209544918
