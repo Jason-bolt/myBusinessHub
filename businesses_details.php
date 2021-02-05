@@ -135,7 +135,17 @@
 
         <!-- Owner Image -->
         <div class="container mt-4">
-          <img src="img/<?php echo $owner['owner_image_location']; ?>" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            if (isset($owner['owner_image_location'])) {
+          ?>
+            <img src="img/<?php echo $owner['owner_image_location']; ?>" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            }else{
+          ?>
+            <img src="img/default_image.png" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            }
+          ?>
           <h5 class="mt-2"><?php echo $owner_name; ?></h5>
         </div>
 
@@ -158,9 +168,9 @@
           if ($owner['facebook'] != null) {
         ?>
           <div class="d-flex flex-row">
-            <i class="fa fa-facebook-square m-0" style="font-size: 30px; text-decoration: none; color: #3B5998; text-align: center;"></i>
+            <i class="fa fa-facebook-square m-0" style="font-size: 25px; text-decoration: none; color: #3B5998; text-align: center;"></i>
             &nbsp;
-            <span class="py-1"><?php echo $owner['facebook']; ?></span>
+            <span><?php echo $owner['facebook']; ?></span>
           </div>
         <?php
           }
@@ -170,9 +180,9 @@
           if ($owner['instagram'] != null) {
         ?>
           <div class="d-flex flex-row">
-            <i class="fa fa-instagram m-0" style="font-size: 30px; text-decoration: none; color: #125688; text-align: center;"></i>
+            <i class="fa fa-instagram m-0" style="font-size: 25px; text-decoration: none; color: #125688; text-align: center;"></i>
             &nbsp;
-            <span class="py-1"><?php echo $owner['instagram']; ?></span>
+            <span><?php echo $owner['instagram']; ?></span>
           </div>
         <?php
           }
@@ -182,9 +192,9 @@
           if ($owner['youtube'] != null) {
         ?>
           <div class="d-flex flex-row">
-            <i class="fa fa-youtube-play m-0" style="font-size: 30px; text-decoration: none; color: #bb0000; text-align: center;"></i>
+            <i class="fa fa-youtube-play m-0" style="font-size: 25px; text-decoration: none; color: #bb0000; text-align: center;"></i>
             &nbsp;
-            <span class="py-1"><?php echo $owner['youtube']; ?></span>
+            <span><?php echo $owner['youtube']; ?></span>
           </div>
         <?php
           }
@@ -194,9 +204,9 @@
           if ($owner['website'] != null) {
         ?>
           <div class="d-flex flex-row">
-            <i class="fa fa-globe m-0" style="font-size: 30px; text-decoration: none; text-align: center;"></i>
+            <i class="fa fa-globe m-0" style="font-size: 25px; text-decoration: none; text-align: center;"></i>
             &nbsp;
-            <span class="py-1"><?php echo $owner['website']; ?></span>
+            <span><?php echo $owner['website']; ?></span>
           </div>
         <?php
           }

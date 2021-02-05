@@ -16,7 +16,7 @@
 
 
 	// QUERY TO UPDATE BUSINESS AND APPROVE
-	$query = "UPDATE businesses SET accepted = '1'";
+	$query = "UPDATE businesses SET accepted = '1' WHERE business_id = {$business_id} AND owner_id = {$owner_id}";
 	$result = mysqli_query($connection, $query);
 
 	if ($result) {

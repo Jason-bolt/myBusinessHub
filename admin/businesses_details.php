@@ -135,7 +135,17 @@
 
         <!-- Owner Image -->
         <div class="container mt-4">
-          <img src="../img/<?php echo $owner['owner_image_location']; ?>" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            if (isset($owner['owner_image_location'])) {
+          ?>
+            <img src="../img/<?php echo $owner['owner_image_location']; ?>" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            }else{
+          ?>
+            <img src="../img/default_image.png" style="border-radius: 100%;" width="200" alt="Avatar" class="avatar">
+          <?php
+            }
+          ?>
           <h5 class="mt-2"><?php echo $owner_name; ?></h5>
         </div>
 

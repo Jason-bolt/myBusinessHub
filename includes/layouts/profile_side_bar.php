@@ -9,7 +9,18 @@
       
         <!-- Owner Image -->
         <div class="container text-center mb-3">
-          <img src="img/<?php echo($owner['owner_image_location']); ?>" style="border-radius: 100%;" alt="Avatar" class="avatar">
+          <?php
+            if (isset($owner['owner_image_location'])) {
+          ?>
+            <img src="img/<?php echo($owner['owner_image_location']); ?>" style="border-radius: 100%;" alt="Avatar" class="avatar">
+          <?php
+            }else{
+          ?>
+            <img src="img/default_image.png" style="border-radius: 100%;" alt="Avatar" class="avatar">
+          <?php
+            }
+          ?><!-- 
+          <img src="img/<?php echo($owner['owner_image_location']); ?>" style="border-radius: 100%;" alt="Avatar" class="avatar"> -->
         </div>
 
         <!-- Owner name -->
