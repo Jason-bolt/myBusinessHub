@@ -12,7 +12,7 @@
     include('includes/layouts/header.php');
   }
 
-  echo password_encrypt("GOSH@123*");
+  // echo password_encrypt("GOSH@123*");
 
   $businesses = get_recently_added_businesses();
 
