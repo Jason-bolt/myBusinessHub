@@ -40,6 +40,18 @@
 
                     <!-- DIsplay server information -->
                     <?php
+                        if (isset($_SESSION['registration_success'])) {
+                    ?>
+                        <script type="text/javascript">
+                            alert('<?php echo($_SESSION['registration_success']); ?>')
+                        </script>
+                    <?php
+                        }
+                        $_SESSION['registration_success'] = null;
+                    ?>
+
+                    <!-- DIsplay server information -->
+                    <?php
                         if (isset($_SESSION['login_notice'])) {
                     ?>
                         <script type="text/javascript">

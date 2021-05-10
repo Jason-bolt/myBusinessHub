@@ -67,6 +67,16 @@
 			// No picture has been subitted
 			if ($owner_image_file['name'] == null) {
 				$_SESSION['registration_success'] = "Registration successful";
+				// Sending mail to owner
+				// Create the email and send the message
+				$mailTo = $owner_email; // Add your email address in between the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
+				$subject = "Your GoSH account has been created successfully!";
+				$body = "Thank you for signing up with us. Feel free to create a business or service and reach multiple people at the same time.";
+				 $header = "From:gotskillshubinfo@gmail.com \r\n";
+		         $header .= "MIME-Version: 1.0\r\n";
+		         $header .= "Content-type: text/html\r\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+				mail($mailTo, $subject, $body, $header);
+				
 				redirect_to('../../login/login.php');
 			}
 
@@ -108,6 +118,17 @@
 						$sql .= "WHERE owner_id = {$id}";
 						mysqli_query($connection, $sql);
 						$_SESSION['registration_success'] = "Registration successful";
+						// Sending mail to owner
+						// Create the email and send the message
+						$mailTo = $owner_email; // Add your email address in between the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
+						$subject = "Your GoSH account has been created successfully!";
+						$body = "Thank you for signing up with us. Feel free to create a business or service and reach multiple people at the same time.";
+						 $header = "From:gotskillshubinfo@gmail.com \r\n";
+				         $header .= "MIME-Version: 1.0\r\n";
+				         $header .= "Content-type: text/html\r\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+						mail($mailTo, $subject, $body, $header);
+
+
 						redirect_to('../../login/login.php');
 
 					}else{
