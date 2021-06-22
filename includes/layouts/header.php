@@ -5,12 +5,38 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Business Hub">
   <meta name="author" content="Jason Kwame Appiatu">
   <meta name="keywords" content="Business Hub">
   <link rel="icon" type="image/png" href="img/brand/brand_logo1.png">
 
-  <title>GoSH</title>
+  <?php
+    if (isset($page) && $page == "businesses") {
+  ?>
+    <meta name="description" content="View the abundance of skilled personnel and businesses of all kind available on Gotskillshub.">
+
+    <title>GoSH - Businesses</title>
+  <?php
+    }else if (isset($page) && $page == "contact") {
+  ?>
+    <meta name="description" content="Contact Gotskillshub if you have any issues or concerns.">
+
+    <title>GoSH - Contact Us</title>
+  <?php
+    }else if (isset($page) && $page == "about") {
+  ?>
+    <meta name="description" content="Find out what Gotskillshub is all about including all terms of service.">
+
+    <title>GoSH - About</title>
+  <?php
+    }else{
+  ?>
+    <meta name="description" content="Gotskillshub is an online notice board or business hub that helps individuals with marketable skills as well as both small and large businesses market themselves on a larger scale using the power of the internet.">
+    
+    <title>GoSH</title>
+  <?php
+    }
+  ?>
+  
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
