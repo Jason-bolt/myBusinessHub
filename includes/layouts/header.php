@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -195,7 +194,7 @@
       <div class="mr-5 col mt-2">
         <i class="fa fa-phone" style="color: rgb(75,0,130);"> +233209544918</i>
         &emsp;
-        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> gotskillshubinfo@gmail.com</i>
+        <i class="fa fa-envelope" style="color: rgb(75,0,130);"> info@gotskillshub.com</i>
       </div>
 
       <div class="col px-0">
