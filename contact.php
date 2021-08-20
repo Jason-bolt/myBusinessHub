@@ -93,7 +93,7 @@
     var subject = document.getElementById("phone").value;
     var message = document.getElementById("message").value;
     
-    if (firstName.trim() == "" && lastName.trim() == "" && subject.trim() == "" && message.trim() == ""){
+    if (firstName.trim() == "" || lastName.trim() == "" || subject.trim() == "" || message.trim() == ""){
       var requiredLabel = document.getElementById("required");
       requiredLabel.style.display = "block";
       return false;

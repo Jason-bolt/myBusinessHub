@@ -63,7 +63,7 @@
 				// Checking for errors
 				if ($owner_image_fileError === 0) { // No error found
 					// Checking file size
-					if ($owner_image_fileSize < (3*MB)) { // Image of good size
+					if ($owner_image_fileSize < (10*MB)) { // Image of good size
 						// Giving each owner image a unique name
 						$owner_image_fileNameNew = 'owner_image' . $id . '.' . $owner_image_fileExt;
 						// New image location

@@ -58,7 +58,7 @@
 				// Checking for errors
 				if ($business_image_fileError === 0) { // No error found
 					// Checking file size
-					if ($business_image_fileSize < (3*MB)) { // Image of good size
+					if ($business_image_fileSize < (10*MB)) { // Image of good size
 						// Giving each business image a unique name
 						$business_image_fileNameNew = 'business_image' . $id . '.' . $business_image_fileExt;
 						// New image location
