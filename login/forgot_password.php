@@ -52,47 +52,55 @@
 
                     <!-- DIsplay server information -->
                     <?php
-                        if (isset($_SESSION['login_notice'])) {
+                        if (isset($_SESSION['reset_notice'])) {
                     ?>
                         <script type="text/javascript">
-                            alert('<?php echo($_SESSION['login_notice']); ?>')
+                            alert('<?php echo($_SESSION['reset_notice']); ?>')
                         </script>
                     <?php
                         }
-                        $_SESSION['login_notice'] = null;
+                        $_SESSION['reset_notice'] = null;
                     ?>
                     <!-- DIsplay server information -->
 
                     <div class="title">
                         <h2>
                             GotSkillsHub - 
-                            <small>Login Form</small>
+                            <small>Recover Password</small>
                         </h2>
-                        <p style="color: blue; font-size: 14px;">For businesses only</p>
-                    </div>
-                    <form method="POST" action="../includes/raw_php/login_process.php" onsubmit="return validate_form()">
-                        <!-- Name of Business Owner -->
-                        <div class="row row-space">
-                            <div class="col-2">
+                        </div>
+                    <form method="POST" action="../includes/raw_php/reset_request.php" onsubmit="return validate_form()">
+
+                        <!-- Check if reset link has been sent -->
+                        <?php
+                            if (isset($_GET['reset'])) {
+                                if ($_GET['reset'] == "success") {
+                                    echo '<p style="color: #5cb85c; font-size: 20px; margin: auto; text-align: center;">Check your email!</p>';
+                                }
+                            }
+                        ?>
+                        
+                        <!-- Email of Business Owner -->
+                        <div class="form-group">
+                            <div class="form-control">
                                 <div class="input-group">
                                     <label class="label">Email *</label>
                                     <input class="input--style-4" type="email" id="email" name="owner_email" required>
                                 </div>
                             </div>
-                            <div class="col-2">
+                        </div>
+                        <!-- <div class="row row-space">
+                            <div class="col-4">
                                 <div class="input-group">
-                                    <label class="label">Password *</label>
-                                    <input class="input--style-4" type="password" id="password" name="password" required>
+                                    <label class="label">Email *</label>
+                                    <input class="input--style-4" type="email" id="email" name="owner_email" required>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <a href="forgot_password.php">Forgot password</a> -->
+                        </div> -->
                         <div class="p-t-15">
-                            <button class="btn btn--radius-2 btn--blue" name="submit_login" type="submit">Login</button>
+                            <button class="btn btn--radius-2 btn--blue" name="reset_password" type="submit">Reset Password</button>
                         </div>
                     </form>
-                    <br />
-                    <a href="../index.php"><button class="btn btn--radius-2" style="background-color: #d9534f ; padding: 0 10px;">Cancel</button></a>
                 </div>
             </div>
         </div>
@@ -115,10 +123,9 @@
 
 <script type="text/javascript">
     function validate_form(){
-        var password = document.getElementById('password').value;
         var email = document.getElementById('email').value;
 
-        if (password.trim() == '' || email.trim() == '') {
+        if (email.trim() == '') {
             alert("All fields are required");
             document.getElementById('required').style.display = 'block';
             return false;
